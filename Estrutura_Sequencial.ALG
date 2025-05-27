@@ -1,12 +1,10 @@
-Algoritmo "Exercícios 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/02/2025
+//Feito no VisualG
+
+Algoritmo "Estrutura_Sequencial"
+
 Var
 
-  // Exercício de fixação
+  // ExercÃ­cio de fixaÃ§Ã£o
   produto1: caractere
   produto2: caractere
   preco1: real
@@ -15,47 +13,47 @@ Var
   codigo: inteiro
   genero: caractere
   
-  // Exercício 1 do pdf
+  // ExercÃ­cio 1 do pdf
   largura: real
   comprimento: real
   metroQuadrado: real
   area: real
   preco: real
   
-  // Exercício 2 do pdf
+  // ExercÃ­cio 2 do pdf
   baseRetangulo: real
   alturaRetangulo: real
   areaRetangulo: real
   perimetro: real
   diagonal: real
   
-  // Exercício 3 do pdf
+  // ExercÃ­cio 3 do pdf
   pessoa1, pessoa2: caractere
   idade1, idade2: inteiro
   media: real
   
-  // Exercício 4 do pdf
+  // ExercÃ­cio 4 do pdf
   x, y, soma: inteiro
   
-  // Exercício 5 do pdf
+  // ExercÃ­cio 5 do pdf
   precoUni, dinheiro, troco: real
   quantidade: inteiro
   
-  // Exercício 6 do pdf
+  // ExercÃ­cio 6 do pdf
   areaCirculo, raio: real
   
-  // Exercício 7 do pdf
+  // ExercÃ­cio 7 do pdf
   funcionario: caracter
   horas: inteiro
   salario, porHora: real
   
-  // Exercício 8 do pdf
+  // ExercÃ­cio 8 do pdf
   consumoMedio, combustivel, distancia: real
   
-  // Exercício 9 do pdf
+  // ExercÃ­cio 9 do pdf
   A,B,C,areaQ,areaTri,areaTra: real
   
-  // Exercício 10 do pdf
+  // ExercÃ­cio 10 do pdf
   h,m,s,duracao,resto:inteiro
 
 
@@ -64,7 +62,7 @@ Inicio
 se (falso) entao
 
 
-   // Exercício de fixação
+   // ExercÃ­cio de fixaÃ§Ã£o
    
    produto1 <- "Computador"
    produto2 <- "TV"
@@ -85,7 +83,7 @@ se (falso) entao
 
 
 
-  // Exercício 1 do pdf
+  // ExercÃ­cio 1 do pdf
   
   escreva ("Digite a largura do terreno:")
   leia (largura)
@@ -103,7 +101,7 @@ se (falso) entao
   
 
  
-  // Exercício 2 do pdf
+  // ExercÃ­cio 2 do pdf
   
   escreva ("Digite a base do retangulo: ")
   leia (baseRetangulo)
@@ -120,7 +118,7 @@ se (falso) entao
 
 
 
-  // Exercício 3 do pdf
+  // ExercÃ­cio 3 do pdf
   
   escreva("Digite primeiro nome: ")
   leia(pessoa1)
@@ -141,11 +139,11 @@ se (falso) entao
   
   media <- (idade1+idade2)/2
   escreval
-  escreval("A idade média de", pessoa1," e ", pessoa2, " é de ", media, " anos.")
+  escreval("A idade mÃ©dia de", pessoa1," e ", pessoa2, " Ã© de ", media, " anos.")
 
 
 
-  // Exercício 4 do pdf
+  // ExercÃ­cio 4 do pdf
   
   escreval("Digite o valor de X: ")
   leia(x)
@@ -158,9 +156,9 @@ se (falso) entao
 
 
 
-  // Exercício 5 do pdf
+  // ExercÃ­cio 5 do pdf
   
-  escreval("Preço unitário do produto: ")
+  escreval("PreÃ§o unitÃ¡rio do produto: ")
   leia(precoUni)
   escreval("Quantidade comprada: ")
   leia(quantidade)
@@ -173,7 +171,7 @@ se (falso) entao
 
 
 
-  // Exercício 6 do pdf
+  // ExercÃ­cio 6 do pdf
   
   escreval("Digite o valor do raio do circulo: ")
   leia(raio)
@@ -184,7 +182,7 @@ se (falso) entao
 
 
 
-  // Exercício 7 do pdf
+  // ExercÃ­cio 7 do pdf
   escreval("Nome: ")
   leia(funcionario)
   escreval("Valor por hora: ")
@@ -198,11 +196,11 @@ se (falso) entao
 
 
 
-  // Exercício 8 do pdf
+  // ExercÃ­cio 8 do pdf
   
   escreval("Distancia percorrida:")
   leia(distancia)
-  escreval("Combustível gasto:")
+  escreval("CombustÃ­vel gasto:")
   leia(combustivel)
   
   consumoMedio <- distancia/combustivel
@@ -211,7 +209,7 @@ se (falso) entao
 
 
 
-  // Exercício 9 do pdf
+  // ExercÃ­cio 9 do pdf
   
   escreval("Digite a medida A: ")
   leia(A)
@@ -230,7 +228,7 @@ se (falso) entao
 fimse
 
 
-  // Exercício 10 do pdf
+  // ExercÃ­cio 10 do pdf
   
   escreval("Digite a duracao em segundos: ")
   leia(duracao)
